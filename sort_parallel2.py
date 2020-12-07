@@ -20,7 +20,6 @@ size = comm.Get_size()
 TAM_ARRAY = 32
 
 unsorted_array = np.zeros(TAM_ARRAY, dtype="int")
-# final_sorted = np.zeros(TAM_ARRAY, dtype="int") apagar
 local_a = np.zeros(int(TAM_ARRAY / size), dtype="int")
 local_b = np.zeros(int(TAM_ARRAY / size), dtype="int")
 array_merge = np.zeros(2 * int(TAM_ARRAY / size), dtype="int")
